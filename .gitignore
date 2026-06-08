@@ -1,0 +1,51 @@
+# === Compilación C++ ===
+# Objetos compilados
+obj/*.o
+obj/
+
+# Binarios
+bin/server
+bin/
+
+# === Editor / IDE ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# === Sistema operativo ===
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+
+# === Compilación / Temp ===
+*.tmp
+*.temp
+*.log
